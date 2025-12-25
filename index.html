@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <script async src="https://sleepie.uk/oneko.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/png" href="webicon.png" />
+        <link rel="icon" type="image/png" href="webicon.png" />
     <title>Sanskruti Padamatintiwar | Portfolio</title>
-    <base href="/devfolio/" />
     <meta
       name="description"
       content="Sanskruti Padamatintiwar - Computer Science student with hands-on experience in web applications, AI-based solutions, and ML/NLP."
@@ -20,17 +19,28 @@
     />
     <meta property="og:type" content="website" />
 
+
     <meta name="twitter:card" content="summary_large_image" />
-    <script
-      type="module"
-      crossorigin
-      src="/devfolio/assets/index-Y_4IaAeE.js"
-    ></script>
-    <link
-      rel="stylesheet"
-      crossorigin
-      href="/devfolio/assets/index-CUBKNx8J.css"
+    <meta name="twitter:site" content="@Lovable" />
+    <meta
+      name="twitter:image"
+      content="https://lovable.dev/opengraph-image-p98pqg.png"
     />
+    <!-- GitHub Pages SPA redirect handler -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/devfolio/assets/index-DslP86gl.js"></script>
+    <link rel="stylesheet" crossorigin href="/devfolio/assets/index-CUBKNx8J.css">
   </head>
 
   <body>
